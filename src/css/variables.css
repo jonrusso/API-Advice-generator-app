@@ -1,0 +1,12 @@
+:root {
+  --color-text-white: #F4EBEB;
+  --color-pattern-green: #6bf4b8;
+  --color-pattern-purple: #af6bf4;
+
+  --bg: url(../images/background-dark-gradient.svg);
+
+  --card: linear-gradient(110.06deg,
+    rgba(19, 10, 54, 0) -2.34%,
+    #000000 100%);
+    filter: drop-shadow(0px 8px 8px rgba(0, 0, 0, 0.15));
+}

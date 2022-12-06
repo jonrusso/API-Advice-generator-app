@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600&display=swap");
+
+body * {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #4f547d;
+  background-image: var(--bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.card {
+  background: var(--card);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  width: 720px;
+  height: 442px;
+  left: 360px;
+  top: 291px;
+}
+
+.card-advice {
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  margin: 87px;
+}
+
+.card-advice #advice {
+  color: var(--color-pattern-green);
+  font-style: italic;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.15em;
+  margin-bottom: 40px;
+}
+
+#advice span {
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.advice-description {
+  color: var(--color-text-white);
+  text-align: center;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 44px;
+  margin-bottom: 74px;
+}
+
+.advice-update {
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+    background-color: var(--color-pattern-green);
+    transform: translateY(60%);
+}
+
+.advice-update:hover {
+    color: #53FFAB;
+    box-shadow: 0 0px 35px var(--color-pattern-green);
+    cursor: pointer;
+}
