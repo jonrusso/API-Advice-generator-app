@@ -29,6 +29,7 @@ body {
 
 .card-advice {
   display: flex;
+  gap: 15px;
   align-items: center;
   flex-flow: column wrap;
   margin: 87px;
@@ -41,7 +42,6 @@ body {
   font-size: 24px;
   line-height: 29px;
   letter-spacing: 0.15em;
-  margin-bottom: 40px;
 }
 
 #advice span {
@@ -54,10 +54,9 @@ body {
   color: var(--color-text-white);
   text-align: center;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 700;
   font-size: 36px;
   line-height: 44px;
-  margin-bottom: 74px;
 }
 
 .advice-update {
